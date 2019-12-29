@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleProject", "ScheduleProject\ScheduleProject.csproj", "{6EF6D6AA-6002-42C7-B19A-2D1EE9399F86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleProject", "ScheduleProject\ScheduleProject.csproj", "{6EF6D6AA-6002-42C7-B19A-2D1EE9399F86}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Resources\Resources.csproj", "{0C7B62BD-B5DE-42F6-9E74-8521C85EA5EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleProjectUnitTest", "ScheduleProjectUnitTest\ScheduleProjectUnitTest.csproj", "{1DC26B0E-C761-4C86-A078-D517D1E48AE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0C7B62BD-B5DE-42F6-9E74-8521C85EA5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C7B62BD-B5DE-42F6-9E74-8521C85EA5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C7B62BD-B5DE-42F6-9E74-8521C85EA5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC26B0E-C761-4C86-A078-D517D1E48AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC26B0E-C761-4C86-A078-D517D1E48AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC26B0E-C761-4C86-A078-D517D1E48AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC26B0E-C761-4C86-A078-D517D1E48AE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

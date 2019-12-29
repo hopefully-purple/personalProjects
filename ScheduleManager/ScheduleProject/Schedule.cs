@@ -35,11 +35,32 @@ namespace ScheduleProject
         }
 
         /// <summary>
+        /// Getter for this dictionary
+        /// </summary>
+        /// <returns></returns>
+        public Dictionary<String, List<Event>> GetSchedule()
+        {
+            return scheduleDict;
+        }
+
+        /// <summary>
         /// Creates an event and adds it to the dictionary
         /// </summary>
         /// <param name="events"></param>
-        public void AddEvent(string events)
+        public void AddEvent(string owner, string name, string start, string end, string occur)
         {
+            //Create a new event object and set the string properties
+            Event newE = new Event();
+            newE.ownerName = owner;
+            newE.eventName = name;
+            newE.startTime = start;
+            newE.endTime = end;
+
+            //Parse the occur parameter
+            string[] occurList = occur.Split(' ');
+
+            //Switch case? for loop? While loop? TODO:BookMark 12/28/19
+            
 
         }
     }

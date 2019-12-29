@@ -12,17 +12,60 @@ namespace ScheduleProject
     /// </summary>
     public class Event
     {
-        public string eventName { get; set; }
-
-        public int startTime { get; set; }
-
-        public int endTime { get; set; }
+        /// <summary>
+        /// Name of the owner
+        /// </summary>
+        public string ownerName { get; set; }
 
         /// <summary>
-        /// A string of the weekly occurence of this event.
-        /// Foramtted "MWF" "THF" "SNST" "TW"
+        /// Name of the event
         /// </summary>
-        public string weekOccurence { get; set; } 
-        //TODO: Idea: What if there was a bool property for each day of the week?
+        public string eventName { get; set; }
+
+        /// <summary>
+        /// Time of day the event starts
+        /// TODO: Come up with a good way to represent time
+        /// </summary>
+        public string startTime { get; set; }  
+
+        /// <summary>
+        /// Time of day the event ends
+        /// </summary>
+        public string endTime { get; set; }
+
+        /// <summary>
+        /// True if this event occurs on a Monday
+        /// </summary>
+        public bool monday { get; set; }
+
+        /// <summary>
+        /// True if this event occurs on a Tuesday
+        /// </summary>
+        public bool tuesday { get; set; }
+
+        /// <summary>
+        /// True if this event occurs on a Wednesday
+        /// </summary>
+        public bool wednesday { get; set; }
+
+        /// <summary>
+        /// True if this event occurs on a Thursday
+        /// </summary>
+        public bool thursday { get; set; }
+
+        /// <summary>
+        /// True if this event occurs on a Friday
+        /// </summary>
+        public bool friday { get; set; }
+
+        /// <summary>
+        /// True if this event occurs on a Saturday
+        /// </summary>
+        public bool saturday { get; set; }
+
+        /// <summary>
+        /// True if this event occurs on a Sunday
+        /// </summary>
+        public bool sunday { get; set; }
     }
 }
